@@ -1,0 +1,34 @@
+
+let frase = "Japão é o melhor time do mundo!"
+console.log(frase)
+console.log(frase.replace("Japão","Brasil"))
+console.log(frase.replace("do mundo!" ,"da asia!").toUpperCase())
+
+let lista = ['Maçã','Pera','Uva']
+console.log(lista)
+console.log(lista[2])
+lista.push('Laranja')
+console.log(lista)
+lista.pop() 
+console.log(lista)
+console.log(lista.length)
+console.log(lista.reverse())
+console.log(lista.toString())
+console.log(lista.join(" | "))
+console.log(lista.join(" - "))
+
+let frutas = [{nome: "maça",cor:"vermelha"}, {nome:"uva",cor:"roxa"}]
+console.log(frutas)
+console.log(frutas[1].nome)
+
+let count = 0
+while(count <= 5){
+    console.log(count)
+    count++
+}
+
+let count1 = 0
+do{
+    console.log(count)
+    count++
+} while(count >= 5)
